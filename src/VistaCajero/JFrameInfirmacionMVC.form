@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="jLabel1" min="-2" pref="367" max="-2" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="779" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="817" max="-2" attributes="0"/>
+                      <EmptySpace pref="227" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="308" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="47" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="419" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/VistaCajero/modelovista controlador2.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="IR  A LA APLICACION"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JEditorPane" name="jEditorPane2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="contentType" type="java.lang.String" value="MVC (Modelo-Vista-Controlador) es un patr&#xf3;n en el dise&#xf1;o de software utilizado para implementar interfaces de usuario, datos y l&#xf3;gica de control. Enfatiza una separaci&#xf3;n entre la l&#xf3;gica de negocios y su visualizaci&#xf3;n. Esta &quot;separaci&#xf3;n de preocupaciones&quot; proporciona una mejor divisi&#xf3;n del trabajo y una mejora de mantenimiento. Algunos otros patrones de dise&#xf1;o se basan en MVC, como MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador) y MVW (Modelo-Vista-Whatever).&#xa;&#xa;Las tres partes del patr&#xf3;n de dise&#xf1;o de software MVC se pueden describir de la siguiente manera:&#xa;&#xa;Modelo: Maneja datos y l&#xf3;gica de negocios.&#xa;Vista: Se encarga del dise&#xf1;o y presentaci&#xf3;n.&#xa;Controlador: Enruta comandos a los modelos y vistas.&#xa;&#xa;MODELOS:&#xa;El modelo define qu&#xe9; datos debe contener la aplicaci&#xf3;n. Si el estado de estos datos cambia, el modelo generalmente notificar&#xe1; a la vista (para que la pantalla pueda cambiar seg&#xfa;n sea necesario) y, a veces, el controlador (si se necesita una l&#xf3;gica diferente para controlar la vista actualizada).Volviendo a nuestra aplicaci&#xf3;n de lista de compras, el modelo especificar&#xe1; qu&#xe9; datos deben contener los art&#xed;culos de la lista (art&#xed;culo, precio, etc.) y qu&#xe9; art&#xed;culos de la lista ya est&#xe1;n presentes.&#xa;&#xa;VISTA:&#xa;La vista define c&#xf3;mo se deben mostrar los datos de la aplicaci&#xf3;n.&#xa;En nuestra aplicaci&#xf3;n de lista de compras, la vista definir&#xed;a c&#xf3;mo se presenta la lista al usuario y recibir&#xed;a los datos para mostrar desde el modelo.&#xa;&#xa;CONTROLADORES:&#xa;El controlador contiene una l&#xf3;gica que actualiza el modelo y/o vista en respuesta a las entradas de los usuarios de la aplicaci&#xf3;n.&#xa;Entonces, por ejemplo, nuestra lista de compras podr&#xed;a tener formularios de entrada y botones que nos permitan agregar o eliminar art&#xed;culos. Estas acciones requieren que se actualice el modelo, por lo que la entrada se env&#xed;a al controlador, que luego manipula el modelo seg&#xfa;n corresponda, que luego env&#xed;a datos actualizados a la vista.&#xa;Sin embargo, es posible que tambi&#xe9;n se desee actualizar la vista para mostrar los datos en un formato diferente, por ejemplo, cambiar el orden de los art&#xed;culos de menor a mayor precio o en orden alfab&#xe9;tico. En este caso, el controlador podr&#xed;a manejar esto directamente sin necesidad de actualizar el modelo." noResource="true"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="MVC (Modelo-Vista-Controlador) es un patr&#xf3;n en el dise&#xf1;o de software utilizado para implementar interfaces de usuario, datos y l&#xf3;gica de control. Enfatiza una separaci&#xf3;n entre la l&#xf3;gica de negocios y su visualizaci&#xf3;n. Esta &quot;separaci&#xf3;n de preocupaciones&quot; proporciona una mejor divisi&#xf3;n del trabajo y una mejora de mantenimiento. Algunos otros patrones de dise&#xf1;o se basan en MVC, como MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador) y MVW (Modelo-Vista-Whatever).  Las tres partes del patr&#xf3;n de dise&#xf1;o de software MVC se pueden describir de la siguiente manera:  Modelo: Maneja datos y l&#xf3;gica de negocios. Vista: Se encarga del dise&#xf1;o y presentaci&#xf3;n. Controlador: Enruta comandos a los modelos y vistas.  MODELOS: El modelo define qu&#xe9; datos debe contener la aplicaci&#xf3;n. Si el estado de estos datos cambia, el modelo generalmente notificar&#xe1; a la vista (para que la pantalla pueda cambiar seg&#xfa;n sea necesario) y, a veces, el controlador (si se necesita una l&#xf3;gica diferente para controlar la vista actualizada).Volviendo a nuestra aplicaci&#xf3;n de lista de compras, el modelo especificar&#xe1; qu&#xe9; datos deben contener los art&#xed;culos de la lista (art&#xed;culo, precio, etc.) y qu&#xe9; art&#xed;culos de la lista ya est&#xe1;n presentes.  VISTA: La vista define c&#xf3;mo se deben mostrar los datos de la aplicaci&#xf3;n. En nuestra aplicaci&#xf3;n de lista de compras, la vista definir&#xed;a c&#xf3;mo se presenta la lista al usuario y recibir&#xed;a los datos para mostrar desde el modelo.  CONTROLADORES: El controlador contiene una l&#xf3;gica que actualiza el modelo y/o vista en respuesta a las entradas de los usuarios de la aplicaci&#xf3;n. Entonces, por ejemplo, nuestra lista de compras podr&#xed;a tener formularios de entrada y botones que nos permitan agregar o eliminar art&#xed;culos. Estas acciones requieren que se actualice el modelo, por lo que la entrada se env&#xed;a al controlador, que luego manipula el modelo seg&#xfa;n corresponda, que luego env&#xed;a datos actualizados a la vista. Sin embargo, es posible que tambi&#xe9;n se desee actualizar la vista para mostrar los datos en un formato diferente, por ejemplo, cambiar el orden de los art&#xed;culos de menor a mayor precio o en orden alfab&#xe9;tico. En este caso, el controlador podr&#xed;a manejar esto directamente sin necesidad de actualizar el modelo."/>
+                <Property name="toolTipText" type="java.lang.String" value="MVC (Modelo-Vista-Controlador) es un patr&#xf3;n en el dise&#xf1;o de software utilizado para implementar interfaces de usuario, datos y l&#xf3;gica de control. Enfatiza una separaci&#xf3;n entre la l&#xf3;gica de negocios y su visualizaci&#xf3;n. Esta &quot;separaci&#xf3;n de preocupaciones&quot; proporciona una mejor divisi&#xf3;n del trabajo y una mejora de mantenimiento. Algunos otros patrones de dise&#xf1;o se basan en MVC, como MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador) y MVW (Modelo-Vista-Whatever).  Las tres partes del patr&#xf3;n de dise&#xf1;o de software MVC se pueden describir de la siguiente manera:  Modelo: Maneja datos y l&#xf3;gica de negocios. Vista: Se encarga del dise&#xf1;o y presentaci&#xf3;n. Controlador: Enruta comandos a los modelos y vistas.  MODELOS: El modelo define qu&#xe9; datos debe contener la aplicaci&#xf3;n. Si el estado de estos datos cambia, el modelo generalmente notificar&#xe1; a la vista (para que la pantalla pueda cambiar seg&#xfa;n sea necesario) y, a veces, el controlador (si se necesita una l&#xf3;gica diferente para controlar la vista actualizada).Volviendo a nuestra aplicaci&#xf3;n de lista de compras, el modelo especificar&#xe1; qu&#xe9; datos deben contener los art&#xed;culos de la lista (art&#xed;culo, precio, etc.) y qu&#xe9; art&#xed;culos de la lista ya est&#xe1;n presentes.  VISTA: La vista define c&#xf3;mo se deben mostrar los datos de la aplicaci&#xf3;n. En nuestra aplicaci&#xf3;n de lista de compras, la vista definir&#xed;a c&#xf3;mo se presenta la lista al usuario y recibir&#xed;a los datos para mostrar desde el modelo.  CONTROLADORES: El controlador contiene una l&#xf3;gica que actualiza el modelo y/o vista en respuesta a las entradas de los usuarios de la aplicaci&#xf3;n. Entonces, por ejemplo, nuestra lista de compras podr&#xed;a tener formularios de entrada y botones que nos permitan agregar o eliminar art&#xed;culos. Estas acciones requieren que se actualice el modelo, por lo que la entrada se env&#xed;a al controlador, que luego manipula el modelo seg&#xfa;n corresponda, que luego env&#xed;a datos actualizados a la vista. Sin embargo, es posible que tambi&#xe9;n se desee actualizar la vista para mostrar los datos en un formato diferente, por ejemplo, cambiar el orden de los art&#xed;culos de menor a mayor precio o en orden alfab&#xe9;tico. En este caso, el controlador podr&#xed;a manejar esto directamente sin necesidad de actualizar el modelo."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="BASADO EN CLASES , METODOS  , INTERFACES GRAFICAS,BAJO LA ARQUITECTURA MVC."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="EL SIGUIENTE SOFTWARE, ES UNA APLICACION SENCILLA DE UN CAJERO AUTOMATICO"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
